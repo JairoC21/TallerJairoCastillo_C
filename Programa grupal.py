@@ -1,5 +1,5 @@
-from matematica import sumar, restar, multiplicar, dividir
+from my_temp_conversions import F_to_K, C_to_R, C_to_F
 
-print(f"{temperature_F} grados Fahrenheit equivalen a {temperature_K} grados Kelvin.")
-print(f"{temperature_C} grados Celsius equivalen a {temperature_R} grados Rankine.")
-print(f"{temperature_C} grados Celsius equivalen a {temperature_F} grados Fahrenheit.")
+print(F_to_K(8))
+print(C_to_R(20))
+print(C_to_F(45))
